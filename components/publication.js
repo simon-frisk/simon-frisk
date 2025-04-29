@@ -1,4 +1,4 @@
-
+ 
 export default function Publication({name, authorlist, venue, paper, arxiv}) {
     return (
         <div style={{

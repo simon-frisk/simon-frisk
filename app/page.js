@@ -17,7 +17,7 @@ export default function Home() {
         <div className={styles.header_text}>
           <div>
             <h1>Simon Frisk</h1>
-            <p>I'm a Ph.D. student at <a href="https://www.wisc.edu">University of Wisconsin-Madison</a>, advised by Prof. <a href="https://pages.cs.wisc.edu/~paris/">Paraschos Koutris</a>. I am interested in query optimization, distributed query processing, recursive query processing and more.</p>
+            <p>I'm a Ph.D. student at <a href="https://www.wisc.edu">University of Wisconsin-Madison</a>. I am most fortunate to be advised by Prof. <a href="https://pages.cs.wisc.edu/~paris/">Paraschos Koutris</a> in the <a href="https://database.cs.wisc.edu">database group</a>. I am interested in query optimization, distributed query processing, recursive query processing and more.</p>
           </div>
           <div style={{
             display: "flex",
@@ -25,9 +25,8 @@ export default function Home() {
             gap: 10,
             marginTop: 10
           }}>
-            <a href="https://www.linkedin.com/in/simon-frisk-a773a31b5/">LinkedIn</a>
-            <a href="https://scholar.google.com/citations?user=1eRxj_oAAAAJ&hl=en">Google Scholar</a>
             <p>simon.frisk [at] wisc.edu</p>
+            <a href="https://scholar.google.com/citations?user=1eRxj_oAAAAJ&hl=en">Google Scholar</a>
           </div>
         </div>
       </div>
@@ -42,3 +41,5 @@ export default function Home() {
     </div>
   );
 }
+// <a href="https://www.linkedin.com/in/simon-frisk-a773a31b5/">LinkedIn</a>
+// <a href="https://scholar.google.com/citations?user=1eRxj_oAAAAJ&hl=en">Google Scholar</a>
